@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale-1.0">
+        <title>Ziyad Barhoum Portfolio Website</title>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/devjane.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Projects</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Technical Skills</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi I am <strong>Ziyad Barhoum</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full Stack Developer</p>
+            <img src="../ziyad.jpg" alt="Profile Picture" class="intro__img">
+        </section>
+
+        <!-- My Projects -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I Do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Software Development</h3>
+                    <p>Creating Web Applications using MERN Stack(MongoDB, Express, Reactjs and Nodejs)</p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Social Media Marketing</h3>
+                    <p>Content Creating, Product Advertisement, and top-notch customer service skills </p>
+                </div> <!-- / service -->
+
+                <div class="service">
+                    <h3>Search Engine Optimization</h3>
+                    <p>Optimize your Online Content to show as a top result for searches of a certain keyword</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+
+            <a href="#work" class="btn">My Work</a>
+
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I Am</h2>
+            <p class="section__subtitle section__subtitle--about">Full Stack Developer</p>
+
+            <div class="about-me__body">
+                <p>A passionate self-learning
+                    software engineer aspiring to be
+                    an entrepreneur and leader in
+                    the field of software development
+                    Friendly, humanitarian, and a
+                    social human being with a sense
+                    of humor.
+                </p>
+            </div>
+
+        </section>
+
+                <!-- My work -->
+            <section class="my-work" id="work">
+                <h2 class="section__title section__title--work">My work</h2>
+                <p class="section__subtitle section__subtitle--work"></p>
+
+                <div class="portfolio">
+                     <!-- Portfolio item 01 -->
+
+                    <a href="https://github.com/Thesis-Project-Z/solar-power-system" class="portfolio__item">
+                        <img src="../solarpower.jpg" alt="">
+                    </a>
+
+                     <!-- Portfolio item 01 -->
+
+                     <a href="https://github.com/Team-Six-GreenField/Team-Six-GreenField" class="portfolio__item">
+                        <img src="../tutor.jpg" alt="">
+                    </a>
+
+                     
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <a href="mailto:zybarhoum@gmail.com" class="footer-link">zybarhoum@gmail.com</a>
+                <ul class="social-list">
+                    <li class="social-list__item"><a class="social-list__link" href="https://www.linkedin.com/in/ziyad-barhoum-059a381b4/"><i class="fab fa-linkedin"></i></a></li>
+                    <li class="social-list__item"><a class="social-list__link" href="https://github.com/ziyadbarhoum"><i class="fab fa-github"></i></a></li>
+                    <li class="social-list__item"><a class="social-list__link" href="https://stackoverflow.com/users/14285176/ziyad-barhoum"><i class="fab fa-stack-overflow"></i></a></li>
+                    <li class="social-list__item"><a class="social-list__link" href="https://www.hackerrank.com/zybarhoum"><i class="fab fa-hackerrank"></i></a></li>
+
+
+                </ul>
+            </footer>
+
+
+            <script src="index.js"></script>
+    </body>
+</html>
